@@ -1,0 +1,36 @@
+body {
+            background-color: #cfcfcf; 
+        }
+
+        .urna {
+            background: #ffffff;
+            border: 1px solid #000000;
+            padding: 50px;
+        }
+
+        .candidato-foto {
+            border: 1px solid #000000;
+            padding: 2px;
+        }
+
+        .rodape {
+            border-top: 1px solid #000000;
+            margin-top: 90px;
+            padding-top: 20px;
+            font-size: 14px;
+        }
+
+        .btn-confirma {
+            background-color: green;
+            color: #000000;
+            font-weight: bold;
+        }
+
+        .btn-confirma:hover {
+            background-color: darkgreen;
+        }
+
+        .lista-candidatos button {
+            width: 100%;
+            text-align: center;
+        }
