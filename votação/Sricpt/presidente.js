@@ -34,7 +34,7 @@ document.getElementById('btn-confirmar').addEventListener('click', () => {
 
     if (nome === ""){
         alert("Escolha um cadidato ou vote em branco!");
-        
+        return;
     }
         window.location.href = "vice.html"
        
