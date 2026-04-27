@@ -33,14 +33,26 @@
         </div>
 
         <!-- CONTEÚDO PRINCIPAL -->
-        <div class="col-md-9 p-5">
-            <h3 style="text-align: center;">Bem-vindo, Administrador!</h3>
-            <p style="text-align: center;">Selecione uma opção no menu lateral.</p>
-        </div>
 
+            <div class="col-md-9 p-5">
+            <h3 class="mb-4 text-center">Resultados da Votação</h3>
+
+            <div class="row">
+                <div class="col-md-6 d-flex justify-content-center">
+                    <canvas id="graficoResultados"></canvas>
+                </div>
+            </div>
+
+            <div class="text-center mt-4">
+                <button class="btn btn-secondary">Enviar para Diretoria</button>
+            </div>
+
+        </div>
     </div>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="assets/script.js"></script>
 </body>
 </html>
 
